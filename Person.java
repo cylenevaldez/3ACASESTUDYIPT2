@@ -77,4 +77,41 @@ public String showAddress()
 {
     return add;
 }
+
+private int cn;
+    private String em;
+    private String cs;
+
+    //Method 1:
+    public void getContactNo(int cn)
+    {
+        this.cn = cn;
+    }
+ 
+    public int showContactNo()
+    {
+        return cn;
+    }
+    
+    //Method 2: 
+    public void getEmail(String em)
+    {
+        this.em = em;
+    }
+    
+    public String showEmail()
+    {
+        return em;
+    }
+    
+    //Method 3:
+     public void getCivil(String cs)
+    {
+        this.cs = cs;
+    }
+    
+    public String showCivil()
+    {
+        return cs;
+    }
 }
