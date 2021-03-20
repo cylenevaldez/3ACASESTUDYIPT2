@@ -38,4 +38,43 @@ public class PersonInformation {
     {
         return Mname;
     }
+
+
+
+private String cz;
+private String gn;
+private String add;
+
+//Method 1:
+public void getCitizen(String cz)
+{
+    this.cz = cz;
+}
+
+public String showCitizen()
+{
+    return cz;
+}
+
+//Method 2: 
+public void getGender(String gn)
+{
+    this.gn = gn;
+}
+
+public String showGender()
+{
+    return gn;
+}
+
+//Method 3:
+ public void getAddress(String add)
+{
+    this.add = add;
+}
+
+public String showAddress()
+{
+    return add;
+}
 }
